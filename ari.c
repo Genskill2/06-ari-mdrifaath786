@@ -1,8 +1,9 @@
 #include<stdio.h>
 #include<string.h>
 #include<assert.h>
+#include<cs50.h>
 #include<ctype.h>
- int ari(char s[])
+ string ari(string s)
 {
      float l=0,w=0,sen=0;
      for(int i=0;s[i]!='\0';i++)
@@ -96,8 +97,6 @@
              char st[]="Professor";
              return st;
          }
-         if(score>14)
-         {
-             char st[]="Chi dheenamma jeevitham";
-             return st;
-         }
+         
+
+} 
