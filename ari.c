@@ -3,7 +3,7 @@
 #include<assert.h>
 #include<cs50.h>
 #include<ctype.h>
- string ari(string s)
+string ari(string s)
 {
      float l=0,w=0,sen=0;
      for(int i=0;s[i]!='\0';i++)
@@ -29,74 +29,61 @@
          }
          if(score==1)
          {
-             char st[]="Kindergarten";
-             return st;
+             return "Kindergarten";
+              
          }
          if(score==2)
          {
-             char st[]="First/Second Grade";
-             return st;
+             return "First/Second Grade";
          }
          if(score==3)
          {
-             char st[]="Third Grade";
-             return st;
+             return "Third Grade";
          }
          if(score==4)
          {
-             char st[]="Fourth Grade";
-             return st;
+             
+             return "Fourth Grade"; 
          }
          if(score==5)
          {
-             char st[]="Fifth Grade";
-             return st;
+             return "Fifth Grade";
          }
          if(score==6)
          {
-             char st[]="Sixth Grade";
-             return st;
+             
+             return "Sixth Grade";
          }
          if(score==7)
          {
-             char st[]="Seventh Grade";
-             return st;
+             return "Seventh Grade";
          }
          if(score==8)
          {
-             char st[]="Eighth Grade";
-             return st;
+             return "Eighth Grade";
          }
          if(score==9)
          {
-             char st[]="Ninth Grade";
-             return st;
+             return "Ninth Grade";
          }
          if(score==10)
          {
-             char st[]="Tenth Grade";
-             return st;
+             return "Tenth Grade";
          }
          if(score==11)
          {
-             char st[]="Eleventh Grade";
-             return st;
+             return "Eleventh Grade";
          }
          if(score==12)
          {
-             char st[]="Twelfth grade";
-             return st;
+             return "Twelfth grade";
          }
          if(score==13)
          {
-             char st[]="College student";
-             return st;
+             return "College student";
          }
          if(score==14)
          {
-             char st[]="Professor";
-             return st;
+             return "Professor";
          }
-         
-
-} 
+}
